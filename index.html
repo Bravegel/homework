@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html="en">
+<head>
+     <meta charset="UTF-8"> 
+     <meta name="viewport"
+           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+     <title>Registration Form</title>  
+     <style>
+         body {
+             margin: 0;
+         }
+        .field-container {
+            display: block;
+            border: 1px solid rgb(0, 0, 0);
+            padding: 15px;
+            margin: 15px;  
+            height: 30px;
+            background: rgb(212, 212, 212);
+        }
+        .field-container > * {
+            display: inline-block;
+        }
+        .field-label {
+          width: 20%;  
+        }
+        .field-control {
+          width: 60%;  
+        }
+        .field-control > * {
+           width: 100%; 
+        }
+     </style>
+</head>
+     <body>
+         <label class="field-container">
+             <div class="field-label">First Name</div>
+             <div class="field-control">
+                 <input name="first_name" placeholder="First Name">
+             </div>
+         </label>
+         <label class="field-container">
+            <div class="field-label">Last Name</div>
+            <div class="field-control">
+                <input name="first_name" placeholder="Last Name">
+            </div>
+        </label>
+        <label class="field-container">
+            <div class="field-label">Email</div>
+            <div class="field-control">
+                <input name="first_name" placeholder="it should contain @">
+            </div>
+        </label>
+        <div class="field-container">
+            <div class="field-label">Mobile</div>
+            <div class="field-control">
+                <input name="first_name" placeholder="+yyy xxxxxxxxx">
+            </div>
+        </div>
+        <div class="field-container">
+            <div class="field-label">Gender</div>
+            <div class="field-control">
+                <label><input type="radio" name="Gender" value="Male"> Male</label>
+                <label><input type="radio" name="Gender" value="Female"> Female</label>
+            </div>
+        </div>
+        <div class="field-container">
+            <div class="field-label">Date of Birth:</div>
+            <div class="field-control">
+                <input type="date">
+            </div>
+        </div>
+        <div class="field-container">
+            <div class="field-label">Address:</div>
+            <div class="field-control">
+                <textarea></textarea>
+            </div>
+            <label class="field-container">
+                <div class="field-label">City</div>
+                <div class="field-control">
+                    <input name="City">
+                </div>
+            </label>
+            <label class="field-container">
+                <div class="field-label">City</div>
+                <div class="field-control">
+                    <input name="City">
+                </div>
+            </label>
+
+     </body>    
+    
+    
+</html>
