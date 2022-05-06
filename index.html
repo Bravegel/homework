@@ -14,7 +14,7 @@
             border: 1px solid rgb(0, 0, 0);
             padding: 15px;
             margin: 15px;  
-            height: 30px;
+            
             background: rgb(212, 212, 212);
         }
         .field-container > * {
@@ -28,6 +28,22 @@
         }
         .field-control > * {
            width: 100%; 
+        }
+        .field-button {
+
+            padding: 15px;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            
+            text-align: center;
+            text-decoration: none;
+              display: inline-block;
+             font-size: 16px;
+             margin: 15px;
+             cursor: pointer;
+            
+            
         }
      </style>
 </head>
@@ -72,7 +88,7 @@
         <div class="field-container">
             <div class="field-label">Address:</div>
             <div class="field-control">
-                <textarea></textarea>
+                <textarea></textarea> </div>
             </div>
             <label class="field-container">
                 <div class="field-label">City</div>
@@ -86,6 +102,57 @@
                     <input name="City">
                 </div>
             </label>
+            <label class="field-container">
+                <div class="field-label">Area PIN:</div>
+                <div class="field-control">
+                    <input name="Area">
+                </div>
+            </label>
+            <label class="field-container">
+                <div class="field-label">State:</div>
+                <div class="field-control">
+                    <input name="State">
+                </div>
+            </label>
+            <label class="field-container">
+                <div class="field-label">Qualification:</div>
+                <div class="field-control">
+                    <select name="Select Qualification" id="Select Qualification">
+                    <option value="1">Select Qualification</option>
+                    <option value="2">1</option>
+                    <option value="2">2</option>
+                    <option value="2">3</option></select>
+                </div>
+            </label>
+            <label class="field-container">
+                <div class="field-label">Specialization:</div>
+                <div class="field-control"></div> <br>
+                    <input type="checkbox" id="spec" name="spec" value="Computer Science">
+                    <label for="spec">Computer Science</label><br>
+                    <input type="checkbox" id="spec1" name="spec1" value="Information Technology">
+                    <label for="spec1"> Information Technology</label><br>
+                    <input type="checkbox" id="spec2" name="spec2" value="Computer Architecture">
+                    <label for="spec2"> Computer Architecture</label><br>
+                    
+                </div>
+            </label>
+            <label class="field-container">
+                <div class="field-label">Password:</div>
+                <div class="field-control">
+                    <input name="Password" placeholder="Type minimum 8 symbols">
+                </div>
+            </label>
+            <div>
+                <div class="field-button">
+                    
+            
+                <input="button" onclick="alert( ' Registered! ' )">REGISTER</input>
+            </div>
+        </div>
+       
+
+
+
 
      </body>    
     
